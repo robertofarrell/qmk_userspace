@@ -94,7 +94,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [_PROG] = LAYOUT(
       QK_BOOT,   KC_1,      DF(_QWERTY), KC_3,      KC_4,       KC_5,                   KC_7,      KC_8,     KC_9,     KC_9,    DT_PRNT,  DT_UP, DT_DOWN,
-      KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,    DF(_GAME),              KC_4,      KC_5,     KC_6,     KC_TRNS, KC_TRNS,  KC_TRNS,
+      KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,    KC_TRNS,              KC_4,      KC_5,     KC_6,     KC_TRNS, KC_TRNS,  KC_TRNS,
       KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,    KC_TRNS,       KC_TRNS, KC_1,      KC_2,     KC_3,     KC_TRNS, KC_DOT,   KC_TRNS,
       BL_TOGG,   BL_STEP,                         KC_TRNS,    MO(_FUNC),	            KC_0,                KC_TRNS,           KC_TRNS,  KC_TRNS
     ),
