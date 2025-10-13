@@ -42,3 +42,5 @@
 #define CTL_ESC LCTL_T(KC_ESC)
 #define SYM_ENT LT(_SYM, KC_ENT)
 #define NUM_SPC LT(_NUM, KC_SPC)
+
+#define RSFT_ENT RSFT_T(KC_ENT)
