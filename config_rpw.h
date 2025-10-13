@@ -43,5 +43,6 @@
 #define SYM_ENT LT(_SYM, KC_ENT)
 #define SYM_SPC LT(_SYM, KC_SPC)
 #define NUM_SPC LT(_NUM, KC_SPC)
+#define NAV_ENT LT(_NAV, KC_ENT)
 
 #define RSFT_ENT RSFT_T(KC_ENT)
