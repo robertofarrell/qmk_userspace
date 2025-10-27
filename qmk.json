@@ -1,6 +1,7 @@
 {
     "userspace_version": "1.1",
     "build_targets": [
-        ["primekb/prime_e/std", "rpw"]
+        ["primekb/prime_e/std", "rpw"],
+        ["redox/rev1/base", "default"]
     ]
 }
