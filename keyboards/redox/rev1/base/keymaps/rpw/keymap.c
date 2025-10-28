@@ -26,7 +26,7 @@ enum layers {
 };
 
 // Shortcut to make keymap more readable
-#define SYM_L   MO(_SYMB)
+#define SYM_L   MO(_SYM)
 
 #define KC_ALAS LALT_T(KC_PAST)
 #define KC_CTPL LCTL_T(KC_BSLS)
