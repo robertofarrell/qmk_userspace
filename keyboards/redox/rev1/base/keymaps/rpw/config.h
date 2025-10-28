@@ -19,6 +19,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "config_rpw.h"
 
+#define EE_HANDS
+
 #undef RGBLIGHT_LED_COUNT
 #define RGBLIGHT_EFFECT_BREATHING
 #define RGBLIGHT_EFFECT_RAINBOW_MOOD

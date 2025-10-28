@@ -34,8 +34,8 @@ enum layers {
 #define KC_NAGR LT(_NAV, KC_GRV)
 #define KC_NAMI LT(_NAV, KC_MINS)
 
-#define KC_ADEN LT(_ADJUST, KC_END)
-#define KC_ADPU LT(_ADJUST, KC_PGUP)
+#define KC_ADEN LT(_ADJ, KC_END)
+#define KC_ADPU LT(_ADJ, KC_PGUP)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
@@ -95,7 +95,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //└────────┴────────┴────────┴────────┘    └────────┘   └────────┴────────┘       └────────┴────────┘   └────────┘    └────────┴────────┴────────┴────────┘
   ),
 
-  [_ADJUST] = LAYOUT(
+  [_ADJ] = LAYOUT(
   //┌────────┬────────┬────────┬────────┬────────┬────────┐                                           ┌────────┬────────┬────────┬────────┬────────┬────────┐
      XXXXXXX ,KC_F1   ,KC_F2   ,KC_F3   ,KC_F4   ,KC_F5   ,                                            KC_F6   ,KC_F7   ,KC_F8   ,KC_F9   ,KC_F10  ,XXXXXXX ,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐                         ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
