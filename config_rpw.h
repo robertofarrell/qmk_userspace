@@ -40,6 +40,8 @@
 #define CTL_SCLN RCTL_T(KC_SCLN)
 
 #define CTL_ESC LCTL_T(KC_ESC)
+#define CTL_QUOT LCTL_T(KC_QUOT)
+
 #define SYM_ENT LT(_SYM, KC_ENT)
 #define SYM_SPC LT(_SYM, KC_SPC)
 #define SYM_DEL LT(_SYM, KC_DEL)
