@@ -48,6 +48,10 @@ enum layers {
 #define NAV_L LSG(KC_LBRC)
 #define NAV_R LSG(KC_RBRC)
 
+#define HYPR_H MT(MOD_LCTL | MOD_LALT | MOD_LGUI | MOD_LSFT, KC_H)
+#define HYPR_G MT(MOD_LCTL | MOD_LALT | MOD_LGUI | MOD_LSFT, KC_G)
+
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_QWERTY] = LAYOUT(
@@ -56,7 +60,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐                         ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
      KC_TAB  ,KC_Q    ,KC_W    ,KC_E    ,KC_R    ,KC_T    ,SYM_L   ,                          SYM_L   ,KC_Y    ,KC_U    ,KC_I    ,KC_O    ,KC_P    ,KC_BSLS ,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┤                         ├────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     CTL_ESC ,KC_A    ,KC_S    ,KC_D    ,KC_F    ,KC_G    ,KC_LBRC ,                          KC_RBRC ,KC_H    ,KC_J    ,KC_K    ,KC_L    ,KC_SCLN ,CTL_QUOT,
+     CTL_ESC ,KC_A    ,KC_S    ,KC_D    ,KC_F    ,HYPR_G  ,KC_LBRC ,                          KC_RBRC ,HYPR_H  ,KC_J    ,KC_K    ,KC_L    ,KC_SCLN ,CTL_QUOT,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┐       ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┤
      KC_LSFT ,KC_Z    ,KC_X    ,KC_C    ,KC_V    ,KC_B    ,KC_LGUI ,KC_RALT ,        KC_RALT ,KC_LGUI ,KC_N    ,KC_M    ,KC_COMM ,KC_DOT  ,KC_SLSH ,KC_RSFT ,
   //├────────┼────────┼────────┼────────┼────┬───┴────┬───┼────────┼────────┤       ├────────┼────────┼───┬────┴───┬────┼────────┼────────┼────────┼────────┤
